@@ -1,6 +1,6 @@
 {
   "name": "zotero-minimize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minimize Zotero at start",
   "scripts": {
     "lint": "tslint -t stylish --project .",
