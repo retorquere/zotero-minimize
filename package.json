@@ -36,7 +36,7 @@
   },
   "xpi": {
     "name": "Minimize for Zotero",
-    "updateLink": "https://github.com/retorquere/zotero-minimize/releases/download/v{version}/zotero-auto-index-{version}.xpi",
+    "updateLink": "https://github.com/retorquere/zotero-minimize/releases/download/v{version}/zotero-minimize-{version}.xpi",
     "releaseURL": "https://github.com/retorquere/zotero-minimize/releases/download/release/"
   }
 }
