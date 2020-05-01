@@ -8,7 +8,9 @@
     "build": "webpack",
     "postbuild": "zotero-plugin-zipup build zotero-minimize",
     "release": "zotero-plugin-release",
-    "postversion": "git push --follow-tags"
+    "postversion": "git push --follow-tags",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,11 +34,13 @@
     "typescript": "^3.7.5",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "zotero-plugin": "0.0.98"
+    "zotero-plugin": "0.0.98",
+    "snyk": "^1.316.1"
   },
   "xpi": {
     "name": "Minimize for Zotero",
     "updateLink": "https://github.com/retorquere/zotero-minimize/releases/download/v{version}/zotero-minimize-{version}.xpi",
     "releaseURL": "https://github.com/retorquere/zotero-minimize/releases/download/release/"
-  }
+  },
+  "snyk": true
 }
